@@ -5,7 +5,7 @@ print "where would you like the new folder to be located? Press 1 for apdocs , P
       " Press 3 for SalesDocs, Press 4 for Fleet."
 choice = raw_input('Please enter choice here:')
  
-while True:
+while choice == '1':
  
     if choice == "1":
         os.chdir('/fileserv/apdocs/')
